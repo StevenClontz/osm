@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    colored (1.2)
+    cri (2.7.0)
+      colored (~> 1.2)
+    kramdown (1.7.0)
+    nanoc (3.6.7)
+      cri (~> 2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown
+  nanoc (= 3.6.7)
