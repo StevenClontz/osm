@@ -27,8 +27,8 @@ on this page for more information.
 
 Are you interested in open research and helping broadcast academic
 activity at your institution to a larger audience? Email Steven at
-<steven.clontz+osm@gmail.com> and get in touch.
+[steven.clontz+osm@gmail.com](mailto:steven.clontz+osm@gmail.com) and get in touch.
 
 ## Proof of Concept Video
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/MzTxNPL8YZY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=62" frameborder="0" allowfullscreen></iframe></div>
+<div class="row"><div class="col-md-offset-1 col-md-10 col-xs-12"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/MzTxNPL8YZY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=66" frameborder="0" allowfullscreen></iframe></div></div></div>
