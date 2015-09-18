@@ -32,8 +32,12 @@ and get in touch.
 
 ## Pilot episode
 
-Steven Clontz presented joint work with Scott Varagona on generalized
+Steven Clontz (UNC Charlotte) presented joint work with
+Scott Varagona (University of Montevallo) on generalized
 inverse limits with ordinal-valued index sets at Auburn University's
 [Continuum Theory seminar](http://www.auburn.edu/cosam/departments/math/research/seminars/topology-continuum-theory.htm).
+This talk was livestreamed using the OSM platform; a recording is
+available on [YouTube](https://www.youtube.com/watch?v=2XMbmKpiza0)
+and embedded below.
 
 <div class="row"><div class="col-md-offset-2 col-md-8 col-xs-12"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/2XMbmKpiza0?rel=0&amp;controls=0&amp;showinfo=0&amp;start=66" frameborder="0" allowfullscreen></iframe></div></div></div>
