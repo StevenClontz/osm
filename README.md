@@ -11,7 +11,7 @@ direct viewers to. But for now, we are simply providing the below instructions
 on how to set up your own stream.
 
 Interested in getting involved and helping promote open research activity
-in mathematics? Email Steven at <steven.clontz+osm@gmail.com>.
+in mathematics? Email Steven at `steven.clontz+osm@gmail.com`.
 
 ## Required Personnel
 
