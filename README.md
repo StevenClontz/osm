@@ -91,25 +91,7 @@ to the speaker's Macbook.
 
 #### OBS Settings
 
-Open OBS, and the viewer (e.g. Adobe Acrobat, a web browser)
-for the presentation; do not set it to full screen yet.
-
-Add these four AV sources in this order to the Sources list:
-
-* Audio Input Capture (the input from the Macbook microphone)
-* Window Capture
-    * Select the window containing the talk slides.
-* Video Capture Device (the input from the Macbook webcam)
-* Image
-    * Select the default or customized OSM banner image.
-
-If possible, set the slides to full screen so that it is the right size
-for arranging the video sources. Arrange the video sources as seen in the
-screenshot below:
-
-![OBS Screenshot](obs_screenshot.png)
-
-Then, set up OBS to send data to YouTube:
+Open OBS and do the following:
 
 * Click "Settings".
 * Go to the "Stream" tab and select the following:
@@ -130,7 +112,29 @@ Then, set up OBS to send data to YouTube:
     * Base Resolution: 1280x720
     * Scaled Resolution: 1280x720
     * Downscale Filter: Bicubic
-    * Common FPS Values: 30
+    * Common FPS Values: 30 and the viewer (e.g. Adobe Acrobat, a web browser)
+
+Now open the slides for the presentation; do not set its window
+to full screen yet.
+
+Add these four AV sources in this order to the Sources list:
+
+* Audio Input Capture (the input from the Macbook microphone)
+* Window Capture
+    * Select the window containing the talk slides (if the slides are set
+      to full screen, they may not be selectable)
+* Video Capture Device (the input from the Macbook webcam)
+* Image
+    * Select the default or customized OSM banner image.
+
+Now set the slides to full screen so that its window is the same size as it
+will be during the talk. Arrange the video sources as seen in the
+screenshot below:
+
+![OBS Screenshot](obs_screenshot.png)
+
+(If your slides are not the same dimensions as the banner image, just center
+them as best as possible.)
 
 ## Running the stream
 
