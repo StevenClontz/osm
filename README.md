@@ -1,16 +1,12 @@
 # Online Seminars in Mathematics
 
+<osm.clontz.org>
+
 The OSM project serves to allow mathematical seminars to easily stream their content online to be shared with the larger mathematical community.
 
 This README outlines the personnel, hardware, and software required to produce a stream, as well as the logistics of running the stream.
 
-## Joining OSM
-
-Eventually we hope to provide an official website to announce streams and
-direct viewers to. But for now, we are simply providing the below instructions
-on how to set up your own stream.
-
-Interested in getting involved and helping promote open research activity
+Interested in getting involved with OSM to help promote open research activity
 in mathematics? Email Steven at `steven.clontz+osm@gmail.com`.
 
 ## Required Personnel
@@ -56,6 +52,8 @@ account. This may be done as far as advance as you like, and from any
 computer with a modern browser and internet connection; once this is done,
 you can share the link to the stream with others.
 
+#### YouTube settings
+
 * Visit <https://www.youtube.com/my_live_events> and click "New live event".
 * Give your event a relevant title, and schedule it for the time your
   seminar runs. The video can be either "Public" (searchable on YouTube) or
@@ -73,6 +71,8 @@ you can share the link to the stream with others.
   `https://www.youtube.com/watch?v=dQw4w9WgXcQ`):
   this will be the address your viewers can watch the stream on.
 
+#### Banner image
+
 Optionally, you can customize the default OSM banner image which will appear
 as the background of your stream along with the speaker and his/her slides.
 
@@ -87,7 +87,9 @@ Otherwise download the default
 [OSM banner image](https://raw.githubusercontent.com/StevenClontz/osm/master/osm_stream_banner.png)
 to the speaker's Macbook.
 
-(TODO: instructions on setting up OBS)
+#### OBS Settings
+
+![OBS Screenshot](obs_screenshot.png)
 
 ## Running the stream
 
