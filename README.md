@@ -131,10 +131,10 @@ Now set the slides to full screen so that its window is the same size as it
 will be during the talk. Arrange the video sources as seen in the
 screenshot below:
 
-![OBS Screenshot](obs_screenshot.png)
+![OBS Screenshot](content/obs_screenshot.png)
 
-(If your slides are not the same dimensions as the banner image, just center
-them as best as possible.)
+(If your slides are not the same dimensions as the placeholder in the
+banner image, just center them as best as possible.)
 
 ## Running the stream
 
