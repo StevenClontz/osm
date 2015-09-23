@@ -133,9 +133,21 @@ screenshot below:
 
 ![OBS Screenshot](content/obs_screenshot.png)
 
-(If your slides are not the same dimensions as the placeholder in the
+(If your slides are not the same proportions as the placeholder in the
 banner image, just center them as best as possible.)
 
 ## Running the stream
 
-TODO
+When the speaker's Macbook is set up, simply click the "Start Streaming"
+button. The moderator who set up the YouTube event can then
+preview the stream before the event begins to make sure YouTube is receiving
+the audio/video feed.
+
+YouTube will automatically start streaming the event at the time configured,
+so the speaker can start talking at that point. Online attendees can submit
+questions through YouTube's chat if they are logged in to an account. The
+stream will be delayed 30-60 seconds from real time in order to prevent
+issues with buffering or loss of signal.
+
+When the event is over, click "Stop Streaming" on OBS and the feed will
+automatically end.
