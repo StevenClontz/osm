@@ -39,6 +39,8 @@ online format).
 * Both the speaker's MacBook and the moderator's device should have a modern
   web browser such as [Firefox](https://www.mozilla.org/en-US/firefox/)
   or [Chrome](https://www.google.com/chrome/browser/desktop/).
+* Whatever software is required to view the talk slides should be installed
+  on the speaker's Macbook.
 * To customize the OSM banner, install the
   [GNU Image Manipulation Program (GIMP)](http://www.gimp.org/downloads/)
   on the device of your choice.
@@ -89,7 +91,46 @@ to the speaker's Macbook.
 
 #### OBS Settings
 
+Open OBS, and the viewer (e.g. Adobe Acrobat, a web browser)
+for the presentation; do not set it to full screen yet.
+
+Add these four AV sources in this order to the Sources list:
+
+* Audio Input Capture (the input from the Macbook microphone)
+* Window Capture
+    * Select the window containing the talk slides.
+* Video Capture Device (the input from the Macbook webcam)
+* Image
+    * Select the default or customized OSM banner image.
+
+If possible, set the slides to full screen so that it is the right size
+for arranging the video sources. Arrange the video sources as seen in the
+screenshot below:
+
 ![OBS Screenshot](obs_screenshot.png)
+
+Then, set up OBS to send data to YouTube:
+
+* Click "Settings".
+* Go to the "Stream" tab and select the following:
+    * Service: YouTube
+    * Server: Primary YouTube ingest server
+    * Stream key: (the key similar to `account.name.g62d-x8z6-v6y9-3849`
+      that you copied earlier)
+* Go to the "Output" tab and select the following (leaving the rest as default):
+    * Output Mode: Simple
+    * Video Bitrate: 1500
+    * Audio Bitrate: 160
+    * Automatically Reconnect: [checked]
+    * Retry Delay (seconds): 10
+    * Maximum Retries: 20
+    * Enable Advanced Decoder Settings: [unchecked]
+* Go to the "Video" tab and select the following:
+    * Render: OpenGL
+    * Base Resolution: 1280x720
+    * Scaled Resolution: 1280x720
+    * Downscale Filter: Bicubic
+    * Common FPS Values: 30
 
 ## Running the stream
 
