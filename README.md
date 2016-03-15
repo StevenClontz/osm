@@ -1,16 +1,12 @@
 # Online Streams in Mathematics
 
+<osm.clontz.org>
+
 The OSM project serves to allow mathematical seminars to easily stream their content online to be shared with the larger mathematical community.
 
 This README outlines the personnel, hardware, and software required to produce a stream, as well as the logistics of running the stream.
 
-## Joining OSM
-
-Eventually we hope to provide an official website to announce streams and
-direct viewers to. But for now, we are simply providing the below instructions
-on how to set up your own stream.
-
-Interested in getting involved and helping promote open research activity
+Interested in getting involved with OSM to help promote open research activity
 in mathematics? Email Steven at `steven.clontz+osm@gmail.com`.
 
 ## Required Personnel
@@ -43,6 +39,8 @@ online format).
 * Both the speaker's MacBook and the moderator's device should have a modern
   web browser such as [Firefox](https://www.mozilla.org/en-US/firefox/)
   or [Chrome](https://www.google.com/chrome/browser/desktop/).
+* Whatever software is required to view the talk slides should be installed
+  on the speaker's Macbook.
 * To customize the OSM banner, install the
   [GNU Image Manipulation Program (GIMP)](http://www.gimp.org/downloads/)
   on the device of your choice.
@@ -55,6 +53,8 @@ The first steps are to set up the "Live Event" on the moderator's YouTube
 account. This may be done as far as advance as you like, and from any
 computer with a modern browser and internet connection; once this is done,
 you can share the link to the stream with others.
+
+#### YouTube settings
 
 * Visit <https://www.youtube.com/my_live_events> and click "New live event".
 * Give your event a relevant title, and schedule it for the time your
@@ -73,6 +73,8 @@ you can share the link to the stream with others.
   `https://www.youtube.com/watch?v=dQw4w9WgXcQ`):
   this will be the address your viewers can watch the stream on.
 
+#### Banner image
+
 Optionally, you can customize the default OSM banner image which will appear
 as the background of your stream along with the speaker and his/her slides.
 
@@ -87,8 +89,65 @@ Otherwise download the default
 [OSM banner image](https://raw.githubusercontent.com/StevenClontz/osm/master/osm_stream_banner.png)
 to the speaker's Macbook.
 
-(TODO: instructions on setting up OBS)
+#### OBS Settings
+
+Open OBS and do the following:
+
+* Click "Settings".
+* Go to the "Stream" tab and select the following:
+    * Service: YouTube
+    * Server: Primary YouTube ingest server
+    * Stream key: (the key similar to `account.name.g62d-x8z6-v6y9-3849`
+      that you copied earlier)
+* Go to the "Output" tab and select the following (leaving the rest as default):
+    * Output Mode: Simple
+    * Video Bitrate: 1500
+    * Audio Bitrate: 160
+    * Automatically Reconnect: [checked]
+    * Retry Delay (seconds): 10
+    * Maximum Retries: 20
+    * Enable Advanced Decoder Settings: [unchecked]
+* Go to the "Video" tab and select the following:
+    * Render: OpenGL
+    * Base Resolution: 1280x720
+    * Scaled Resolution: 1280x720
+    * Downscale Filter: Bicubic
+    * Common FPS Values: 30 and the viewer (e.g. Adobe Acrobat, a web browser)
+
+Now open the slides for the presentation; do not set its window
+to full screen yet.
+
+Add these four AV sources in this order to the Sources list:
+
+* Audio Input Capture (the input from the Macbook microphone)
+* Window Capture
+    * Select the window containing the talk slides (if the slides are set
+      to full screen, they may not be selectable)
+* Video Capture Device (the input from the Macbook webcam)
+* Image
+    * Select the default or customized OSM banner image.
+
+Now set the slides to full screen so that its window is the same size as it
+will be during the talk. Arrange the video sources as seen in the
+screenshot below:
+
+![OBS Screenshot](content/obs_screenshot.png)
+
+(If your slides are not the same proportions as the placeholder in the
+banner image, just center them as best as possible.)
 
 ## Running the stream
 
-TODO
+When the speaker's Macbook is set up, simply click the "Start Streaming"
+button. The moderator who set up the YouTube event can then
+preview the stream before the event begins to make sure YouTube is receiving
+the audio/video feed.
+
+YouTube will automatically start streaming the event at the time configured,
+so the speaker can start talking at that point. Online attendees can submit
+questions through YouTube's chat if they are logged in to an account. The
+stream will be delayed 30-60 seconds from real time in order to prevent
+issues with buffering or loss of signal.
+
+When the event is over, click "Stop Streaming" on OBS and the feed will
+automatically end.

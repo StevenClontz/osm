@@ -20,6 +20,8 @@ other institutions can take part in these events.
 
 ## Start streaming your seminar
 
+<div class="row"><div class="col-md-offset-2 col-md-8 col-xs-12"><img src="obs_screenshot.png" width="100%"/></div></div>
+
 Instructions on how to set up your own seminar stream can be found on our
 [Github page](https://github.com/StevenClontz/osm).
 
