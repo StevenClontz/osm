@@ -1,4 +1,4 @@
-# Online Seminars in Mathematics
+# Online Streams in Mathematics
 
 The OSM project serves to allow mathematical seminars to easily stream their content online to be shared with the larger mathematical community.
 
