@@ -14,3 +14,9 @@ PLATFORMS
 DEPENDENCIES
   kramdown
   nanoc (= 3.6.7)
+
+RUBY VERSION
+   ruby 2.1.2p95
+
+BUNDLED WITH
+   1.13.5
